@@ -66,10 +66,15 @@ Each row represents an item within a particular invoice.
 
 ## 🚀 How to Run
 
+
+
 ### 1. Clone the repo
 ```bash
 git clone https://github.com/your-username/online-retail-etl.git
 cd online-retail-etl
+```
+
+
 
 ### 2. Install dependencies
 pip install -r requirements.txt
