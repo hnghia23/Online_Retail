@@ -1,6 +1,6 @@
 # 🧾 Online Retail ETL Project
 
-This project implements an ETL (Extract-Transform-Load) pipeline for the [Online Retail dataset](https://archive.ics.uci.edu/ml/datasets/Online+Retail) using **Python (Pandas)** and **PostgreSQL**, aiming to build a **star-schema data warehouse** for BI and reporting purposes.
+This project implements an ETL (Extract-Transform-Load) pipeline for the [Online Retail dataset](https://www.kaggle.com/datasets/tunguz/online-retail) using **Python (Pandas)** and **PostgreSQL**, aiming to build a **star-schema data warehouse** for BI and reporting purposes.
 
 
 ## ETL Pipeline 
