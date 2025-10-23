@@ -21,9 +21,9 @@ def get_engine():
 
 # ETL function import
 
-from etl.extract import extract_data
-from etl.transform import transform_data
-from etl.load import load_data
+from src.extract import extract_data
+from src.transform import transform_data
+from src.load import load_data
 
 
 '''
