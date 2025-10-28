@@ -51,7 +51,8 @@ Each row represents an item within a particular invoice.
 
 ## 🏗️ Database Schema (Star Schema)
 
----
+```text
+
 +------------+              +----------------+          +--------------+         +--------------+
 |  Customer  | (1) ──< (N)  |  OrderSummary  |  >── (N) | OrderDetails | >── (1) |   Product    |                  
 +------------+              +----------------+          +--------------+         +--------------+
@@ -61,8 +62,8 @@ Each row represents an item within a particular invoice.
                             +-------------+
                             |   DimTime   |
                             +-------------+
-                            
----
+
+```
 
 ## 🚀 How to Run
 
