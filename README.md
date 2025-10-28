@@ -5,7 +5,7 @@ This project implements an ETL (Extract-Transform-Load) pipeline for the [Online
 
 ## ETL Pipeline 
 
-![image_alt](https://github.com/hnghia23/Online_Retail/blob/7f4b0b5abe39b08f15d483670391728f360bda2d/Workflow.png)
+![image_alt](https://github.com/hnghia23/Online_Retail/blob/330d29589a955f20a6b6c3a08f893db2b3cdf2a6/Workflow.png)
 
 ---
 
