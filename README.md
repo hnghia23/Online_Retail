@@ -83,17 +83,23 @@ pip install -r requirements.txt
 ### 3. Configure database connection
 
 DB_HOST=localhost
+
 DB_PORT=5432
+
 DB_NAME=online_retail_dw
+
 DB_USER=your_username
+
 DB_PASSWORD=your_password
 
 
 ### 4. Run the ETL pipeline
-python etl_online_retail.py
+Open the cmd, run: 
+  ```bash
+  python etl_online_retail.py
+  ```
 
-
-🧰 Tech Stack
+## 🧰 Tech Stack
 - Python 3.x
 
 - Pandas
@@ -106,7 +112,7 @@ python etl_online_retail.py
 
 
 
-📈 Potential Improvements
+## 📈 Potential Improvements
 - Use Airflow or Prefect for ETL orchestration
 
 - Handle large datasets with chunked inserts
