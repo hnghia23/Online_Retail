@@ -51,19 +51,9 @@ Each row represents an item within a particular invoice.
 
 ## 🏗️ Database Schema (Star Schema)
 
-```text
+![image_alt](https://github.com/hnghia23/Online_Retail/blob/4b6990eae5efe1436e0490f0e619f29edccb357e/assets/dw_schema.png)
 
-+------------+              +----------------+          +--------------+         +--------------+
-|  Customer  | (1) ──< (N)  |  OrderSummary  |  >── (N) | OrderDetails | >── (1) |   Product    |                  
-+------------+              +----------------+          +--------------+         +--------------+
-                                   │
-                                   │ (FK: TimeID)
-                                   ▼
-                            +-------------+
-                            |   DimTime   |
-                            +-------------+
-
-```
+---
 
 ## 🚀 How to Run
 
