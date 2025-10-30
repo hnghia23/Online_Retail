@@ -71,14 +71,16 @@ Each row represents an item within a particular invoice.
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/online-retail-etl.git
-cd online-retail-etl
+git clone https://github.com/hnghia23/Online-Retail.git
+cd Online-Retail
 ```
 
 
 
 ### 2. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 3. Configure database connection
 
